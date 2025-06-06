@@ -1,6 +1,6 @@
 # Security System with Autonomous Anomaly Detection and Response Robot
 
-![Security Robot Banner](results/system_architecture.png)
+![Security Robot Banner](results/system_architecture.jpg)
 
 An intelligent autonomous security robot system that combines real-time anomaly detection with robotic response mechanisms, deployed on NVIDIA Jetson Nano. The system utilizes advanced AI technologies including YOLOv8, DeepSort, MediaPipe Pose, MiDaS depth estimation, and LLaMA integration for comprehensive security monitoring and response.
 
@@ -17,7 +17,7 @@ An intelligent autonomous security robot system that combines real-time anomaly 
 
 ## 🏗️ System Architecture
 
-![System Architecture](results/methodology.png)
+![System Architecture](results/methodology.jpg)
 
 The system integrates multiple AI components:
 - **Vision Pipeline**: Multi-camera surveillance with YOLOv8 object detection
@@ -190,14 +190,14 @@ interaction:
 - **Obstacle Avoidance**: 95% success rate in complex environments
 
 ### Human-Robot Interaction
-![Interrogation Demo](results/images/interrogation.jpg)
+![Interrogation Demo](results/interrogation.jpg)
 
 - **LLaMA Integration**: Context-aware security conversations
 - **Response Time**: <3 seconds for generated responses
 - **Threat Assessment**: 88% accuracy in suspicious behavior classification
 
 ### Alert System
-![Interrogation Demo](results/images/alerts.jpg)
+![Interrogation Demo](results/alerts.jpg)
 
 - **Alerts**: Captures and gives the real time alert notifications of suspicious objects
 - **Platform**: via telegram app
